@@ -1,0 +1,80 @@
+html {
+	font: normal 100% Helvetica, sans-serif; /* context ~16px */
+}
+
+body{
+  background-image: url('images/great-wood-light-background.jpg')
+}
+header{
+  margin:20px;
+}
+h1 {
+  text-align: center;
+  color: #0099ff;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  background-color: #00ff00;
+ }
+
+.line {
+  background-color: black;
+}
+
+
+
+.left {
+  text-align: center;
+  background-color:transparent;
+  border: 3px solid #FF9900;
+  border-radius:3px;
+}
+
+.middle {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  
+  border: 3px solid #000;
+}
+
+.right {
+  
+  -webkit-flex: 0 1 200px;
+  flex: 0 1 200px;
+
+  text-align: center;
+  background: #ffff66;
+  border: 3px solid orange;
+}
+
+section {
+  padding: 7px;
+  margin: 5px;
+}
+
+p {
+  font-size: 1.3rem; 
+}
+
+.x {
+  color: green;
+  font-weight: bold;
+}
+
+.o {
+  color: #ff3399;
+  font-weight: bold;
+}
+
+canvas {
+  
+  border: 1px solid #000;
+}
+
+
+.winner {
+  background-color: #ff6;
+}
